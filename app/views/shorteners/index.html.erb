@@ -1,0 +1,11 @@
+<!-- <%= render 'form' %>
+<%= @urls = Shortener.all %>
+<% @urls.each do |x| %>
+<%= link_to x.shorturl, x.longurl %>
+<% end %> -->
+
+<%= render "form" %>
+<% @urls.each do |x| %>
+  <%= link_to shortener_url(x), shortener_url(x) %>
+  <br>
+<% end %>
