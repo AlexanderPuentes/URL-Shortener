@@ -1,24 +1,4 @@
-# README
+This url shortener will allow you to input any lengthy url and convert it to a simpler and much shorter url. 
+Once you input your url it will generate a shortened url beneath which will also store it for you.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Available through localhost
